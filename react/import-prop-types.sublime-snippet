@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[import PropTypes from 'prop-types';]]></content>
+  <tabTrigger>ipp</tabTrigger>
+  <scope>source.js</scope>
+  <description>imports prop types</description>
+</snippet>
+

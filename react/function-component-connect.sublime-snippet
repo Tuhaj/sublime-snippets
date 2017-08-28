@@ -1,0 +1,36 @@
+<snippet>
+    <content><![CDATA[import React from 'react';
+import PropTypes from 'prop-types';
+import styled from 'styled-components';
+import { connect } from 'react-redux';
+
+const Styled${1:Component} = styled.section`
+  ${2:display: block;}
+`;
+
+const ${1:Component} = props => (
+  <Styled${1:Component}>
+  </Styled${1:Component}>
+);
+
+${1:Component}.defaultProps = {
+  ${3}
+};
+
+${1:Component}.propTypes = {
+  ${3}
+};
+
+const mapStateToProps = state => ({
+  ${4}
+});
+
+const mapDispatchToProps = dispatch => ({
+  ${5}
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(${1:Component});]]></content>
+    <tabTrigger>fcc</tabTrigger>
+    <scope>source.js</scope>
+    <description>creates functional component with styled components with connect</description>
+</snippet>
